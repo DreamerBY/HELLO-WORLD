@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Форма обратной связи</title>
+<style>
+
+h1{color:maroon;} /*заголовок*/
+body{margin-left:10px; width:400px; border:2px solid blue; color:#444;}
+
+textarea{width:99%; height:150px; border:2px solid green; overflow:  hidden; resize: none; /* Запрещаем изменять размер */}
+
+div { padding-top: 10px;} /*расстояние между DIV*/
+
+#xx{float:right; clear:both;}/*я не буду воровать записи курсов*/
+#yy{float:right; clear:both; display:inline;}/*кнопки внизу*/
+
+select{float:right;}/*чем занимаетесь*/
+
+#mw, label.field0{background:; display:inline;float:left;}
+input, select{float:right; }
+
+/*border: 2px solid red;
+.field {clear:both; text-align:right; line-height:25px;}
+.field0 {float:left;line-height:20px;}
+.main {float:left}
+div {border: 2px solid red; padding-top: 10px;}
+.field1 {float:left;clear:left; background:green;}
+.main1 {float:left; display:line;clear:left; }
+label{border:0px solid blue;}
+#chek1
+#qw{background:grey; display:inline;}*/
+
+</style>
+</head>
+<body>
+<form action=""	<!--куда отправлять-->
+<h1>Давайте познакомимся</h1>
+
+<div class="main">
+<div class="field" >
+<label class="field0" >Ваше имя:</label><input type="text" name="name" value="" maxlength="20"/>
+</div>
+		 		 
+<div class="field" >
+<label class="field0">Ваша фамилия:</label><input type="text" name="surname" value="" maxlength="20"/><br/>
+</div></div>
+
+
+<div>
+<label id="field0">Кто вы?</label>
+<div id="mw">
+<input type="radio" name="r"  checked="cheked" value="0" id="chek1"/><label for="chek1"><label for="chek1">мужчина</label>
+<input type="radio" name="r"  value="1" id="chek2"/><label for="chek2">женщина</label>
+</div></div>
+	
+	
+<div>
+<label id="field0">Чем занимаетесь?</label>  <!-- Выпадающий список -->
+<select name="book" size="1" />
+	
+		<option value="1" selected>школьник</option>
+		<option value="2">студент</option>
+		<option value="3">безработный</option>
+		<option value="4">рабочий класс</option>
+		<option value="5">офисный планктон</option>
+		<option value="6">креативный класс</option>
+		<option value="8">интеллигент</option>
+		<option value="9">олигарх</option>
+</select>
+</div>
+	
+<div>
+		<textarea name="msg" cols="50" rows="5">Напишите коротко о себе:</textarea>
+</div>
+	
+	<div id="xx";>
+		<label for="chek"> Я не буду воровать записи курсов</label><input type="checkbox" name="c" id="chek" checked="cheked"/>
+	</div>	
+	
+	<div id="yy";>
+		<input type="submit" value="Послать отзыв" />
+		<input type="reset" value="Очистить форму" />
+	</div>
+	</form>
+</body>
+</html>
