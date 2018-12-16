@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Книги и Фильмы - обзоры всего и всея</title>
+<style>
+body{margin:0;padding:0; color:#000; background:#FFF;
+font-family:Arial, sans-serif;
+
+}
+header{
+height:3em;
+border-bottom: 1px dotted black;
+border-top: 1px solid black;
+}
+div{background:yellow;
+width:800px;
+margin: 0 auto;
+border-top: 2px solid black;
+}
+header span{
+font:110% georgia, serif;
+color:black;
+float:right;
+margin-right:2em;
+margin-top:0.6em;
+}
+header img{
+margin-top:0.5em;
+margin-left:1.5em;
+}
+nav{
+float:left;
+margin-top:2em;
+margin-left:1em;
+width:14em;
+}
+nav ul{
+list-style-type:none;
+padding-left:0;
+margin-left:1em;
+}
+nav li{
+font-size:80%;
+border-bottom:1px dotted black;
+margin-bottom:0.3em;
+}
+nav a{
+text-decoration:none;
+color:black;
+}
+section{
+/*display:none;*/
+margin-left:16em;
+margin-right:2em;
+}
+section h1{
+font:150% georgia, serif;
+}
+section p{
+font-size:80%;
+padding-left:1em;
+line-height:1.6em;
+}
+nav h2{
+font:120% georgia, serif;
+color:black;
+border-bottom:1px dotted black;
+}
+	</style>
+	
+</head>
+
+
+
+<body>
+<div>
+<header>
+		<img src="logo.gif" width="187" height="29" alt="Книги и Фильмы"><span>обзоры всего и всея</span>
+	</header>
+	
+	
+<nav>
+		<ul>
+			<li><a href="#">Обзор книг</a></li>
+			<li><a href="#">Обзор фильмов</a></li>
+			<li><a href="#">Опубликовать обзор</a></li>
+			<li><a href="#">О нашем сайте</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		<h2>Последние обзоры</h2>
+		<ul>
+			<li><a href="#">Как украсть миллион и жить спокойно?</a></li>
+			<li><a href="#">Доведи заказчика до сумасшедшего дома</a></li>
+			<li><a href="#">Матрица 14: конец света отменяется</a></li>
+			<li><a href="#">Терминатор 25: боты атакуют</a></li>
+		</ul>
+</nav>
+	
+<section>
+		<h1>Добро пожаловать на Книги и Фильмы</h1>
+		<p>
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin non mi in urna hendrerit tincidunt. Maecenas eleifend erat et lacus. Sed tempor. Sed venenatis consequat neque. Sed massa. Donec quis orci sed lacus ullamcorper venenatis. Nam et sapien. Sed id dolor in tortor eleifend aliquam. Mauris vulputate. Nulla nec diam et pede faucibus ornare.</p>
+		<p>
+		Sed nec erat sed sem molestie congue. Cras lacus sapien, ultrices ac, mattis quis, lobortis eu, turpis. Aliquam egestas arcu a massa. In hendrerit odio eget lectus. Nullam iaculis ultricies ipsum. Nullam id felis. Phasellus at metus sed velit luctus semper. Cras wisi diam, pharetra sed, pharetra ac, sodales in, quam. Nullam facilisis. Aliquam rhoncus sapien ac dui. Donec mattis ipsum. Nulla a nunc id orci mollis semper. Vestibulum porta quam a dolor.</p>
+		<p>
+		Vestibulum dictum massa at odio. In dignissim ante id dui. Morbi rhoncus elit ac ipsum. Curabitur a elit. Phasellus in lorem quis turpis imperdiet accumsan. Suspendisse potenti. Curabitur a enim sed lacus tempor venenatis. Mauris sed ipsum sit amet leo dictum scelerisque. Suspendisse a lectus. Aliquam nec felis at erat sagittis pretium. Nunc id augue pharetra augue commodo tincidunt. Praesent placerat, diam quis porttitor lobortis, orci arcu nonummy sapien, at venenatis ipsum wisi non wisi. Sed bibendum nunc at justo. Vestibulum leo lacus, lobortis vel, interdum ac, varius non, augue. Nam rhoncus dictum libero. Donec porttitor porta lectus. Vivamus consectetuer feugiat wisi. Morbi sit amet nibh eget nibh feugiat porttitor.</p>
+	</section>
+</div>
+</body>
+
+</html>
