@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Замен от версии IE</title>
+
+<style> #lteIE8, #IE9{display:none;} body{background:green;} </style>
+
+<!--[if IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<style> #notIE, #lteIE8{display:none;} #IE9{display:inline;} body{background:#cfc;} </style>
+<![endif]-->
+
+<!--[if lte IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<style> #notIE, #IE9{display:none;} #lteIE8{display:inline;}  body{background:#ccf;} </style>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+<h2 id="notIE">Ваш браузер Не IE или современный IE</h2>
+<h2 id="IE9">Ваш браузер IE9</h2>
+<h2 id="lteIE8">Ваш браузер IE8 или старше</h2>
+
+
+
+</body>
+</html>
